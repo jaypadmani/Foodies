@@ -5,12 +5,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.foodies.R;
 import com.example.foodies.models.FeaturedverModel;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import java.util.List;
 
@@ -36,13 +38,11 @@ public class FeaturedverAdapter extends RecyclerView.Adapter<FeaturedverAdapter.
         holder.description.setText(list.get(position).getDescription());
         holder.timing.setText(list.get(position).getTiming());
         holder.rating.setText(list.get(position).getRating());
-
     }
-
     @Override
     public int getItemCount() {
-        return list.size();
-    }
+        return list.size();}
+
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 

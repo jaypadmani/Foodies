@@ -44,9 +44,9 @@ public class SecondFragment extends Fragment {
         popularVerModelList = new ArrayList<PopularVerModel>();
 
         try {
-            popularVerModelList.add(new PopularVerModel(R.drawable.samsoa,"samosa","Best Food","4.8","7:00AM to 10:00PM"));
-            popularVerModelList.add(new PopularVerModel(R.drawable.vadapav,"Vadapav","Best Food","4.1","7:00AM to 10:00PM"));
-            popularVerModelList.add(new PopularVerModel(R.drawable.dablie,"Dabeli","Best Food","4.3","7:00AM to 10:00PM"));
+            popularVerModelList.add(new PopularVerModel(R.drawable.undhiyu,"Surti undhiyu","Popular Food","4.8","7:00AM to 10:00PM"));
+            popularVerModelList.add(new PopularVerModel(R.drawable.kadhi,"gujarati kadhi","Popular Food","4.1","7:00AM to 10:00PM"));
+            popularVerModelList.add(new PopularVerModel(R.drawable.khamna,"Khaman Dhokla","Popular Food","4.3","7:00AM to 10:00PM"));
         }catch (Exception e) {
 
         }

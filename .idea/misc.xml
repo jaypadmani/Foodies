@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android studio/Foodies/app/src/main/res/layout-v21/activity_registation.xml" value="0.29743589743589743" />
+        <entry key="..\:/Android studio/Foodies/app/src/main/res/layout-v23/activity_registation.xml" value="0.29743589743589743" />
+        <entry key="..\:/Android studio/Foodies/app/src/main/res/layout/activity_detailes_daily_meal.xml" value="0.29743589743589743" />
+        <entry key="..\:/Android studio/Foodies/app/src/main/res/layout/activity_login.xml" value="0.29743589743589743" />
+        <entry key="..\:/Android studio/Foodies/app/src/main/res/layout/activity_main.xml" value="0.29743589743589743" />
+        <entry key="..\:/Android studio/Foodies/app/src/main/res/layout/activity_registation.xml" value="0.29743589743589743" />
+        <entry key="..\:/Android studio/Foodies/app/src/main/res/menu/activity_main_drawer.xml" value="0.29743589743589743" />
+        <entry key="..\:/Android studio/Foodies/app/src/main/res/menu/main.xml" value="0.29743589743589743" />
         <entry key="..\:/Users/jaypa/AndroidStudioProjects/Foodies/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.310126582278481" />
         <entry key="..\:/Users/jaypa/AndroidStudioProjects/Foodies/app/src/main/res/drawable/bottom_sheet_bg.xml" value="0.1537037037037037" />
         <entry key="..\:/Users/jaypa/AndroidStudioProjects/Foodies/app/src/main/res/drawable/btn_big_design.xml" value="0.1" />

@@ -58,7 +58,7 @@ public class DetailedDailyMealActivity extends AppCompatActivity {
         }
         if(type !=null && type.equalsIgnoreCase("Lunch")){
             imageView.setImageResource(R.drawable.lunch);
-            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.lu1,"Tomato-Garlic Lentil Bowls","lunch meal","4.2","Min - 80","10 to 9"));
+            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.lu1,"Tomato-Garlic Lentil Bowls","lunch meal","4.2","Min - 80","7:00AM to 10:00PM"));
             detailedDailyModelList.add(new DetailedDailyModel(R.drawable.sandwich2,"Chees sanwich","lunch meal","4.1","Min - 40","7:00AM to 10:00PM"));
             detailedDailyModelList.add(new DetailedDailyModel(R.drawable.burger2,"burger","lunch meal","4.6","Min - 50","7:00AM to 10:00PM"));
             detailedDailyModelList.add(new DetailedDailyModel(R.drawable.l2,"Gujarti Thali","lunch meal","4.7","Min - 80","7:00AM to 10:00PM"));
@@ -66,11 +66,11 @@ public class DetailedDailyMealActivity extends AppCompatActivity {
             dailyAdapter.notifyDataSetChanged();
         }
         if(type !=null && type.equalsIgnoreCase("Dessert")){
-            imageView.setImageResource(R.drawable.lunch);
-            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.dinner1,"Dinner","description","4.4","Min - 40","7:00AM to 10:00PM"));
-            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.s2,"Dinner","description","4.4","Min - 40","7:00AM to 10:00PM"));
-            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.s3,"Dinner","description","4.4","Min - 40","7:00AM to 10:00PM"));
-            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.s4,"Dinner","description","4.4","Min - 40","7:00AM to 10:00PM"));
+            imageView.setImageResource(R.drawable.sweets);
+            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.fudgychewybrownies,"Fudgy Chewy Brownies","last course of meal","4.2","Min - 50","7:00AM to 10:00PM"));
+            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.lemontart,"Lemon Tart","last course of meal","4.4","Min - 20","7:00AM to 10:00PM"));
+            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.coconutkheer,"Rice Kheer ","last course of meal","4.9","Min - 30","7:00AM to 10:00PM"));
+            detailedDailyModelList.add(new DetailedDailyModel(R.drawable.chocolatecoffeetruffle,"Chocolate Coffee Truffle","last course of meal","5.0","Min - 60","7:00AM to 10:00PM"));
 
             dailyAdapter.notifyDataSetChanged();
         }

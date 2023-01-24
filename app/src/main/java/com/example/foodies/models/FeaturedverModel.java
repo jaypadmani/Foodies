@@ -55,4 +55,6 @@ public class FeaturedverModel {
     public void setTiming(String timing) {
         this.timing = timing;
     }
+
+
 }
